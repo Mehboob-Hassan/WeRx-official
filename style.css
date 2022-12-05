@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: inter, sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, #4B7A8D, #7BBEEE, #4751B2);
+}
+
+.section{
+    margin-bottom: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 3vw;
+}
+
+/* ----------------NAVBAR--------------- */
+.navBar{
+    background-color: black;
+    margin-top: 5vw;
+}
+.navbar-collapse ul li a{
+    color: white;
+    margin-left: 20px;
+}
+.navbar-brand img{
+    margin-top: 1vw;
+    width: 12vw;
+    height: 12vw;
+}
+.login-btn{
+    background-image: linear-gradient(to bottom, #235C86, #7BBEEE);
+    border-radius: 10px;
+}
+
+/* ----------------SLOGAN--------------- */
+.slogan{
+    background-color: black;
+    padding-bottom: 3vw;
+}
+.slogan-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-left h1{
+    margin: 0vw 0 0 2vw;
+    font-weight: 550;
+    font-size: 4.8vw;
+}
+.slogan-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan-right img{
+    margin-top: 5vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+/* ----------------ABOUT US--------------- */
+.aboutUS{
+    padding-bottom: 6vw;
+}
+.aboutUs-inner{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.aboutUs-inner h1{
+    font-size: 2.8vw;
+    margin: 0vw 0 0 -1vw;
+}
+/* ----------------OUR SERVICE--------------- */
+.ourService{
+}
+.ourSevice-cards{
+    display: flex;
+    margin-top: 2.5vw;
+}
+.ourService .card{
+    background-image: linear-gradient(to bottom, #335d6e, #3c8dc8, #4792b2);
+    color: black;
+    width: 20vw;
+    height: 20vw;
+    text-align: center;
+    margin: 0 2vw;
+    padding: 2vw;
+}
+.ourService .card:nth-child(2){
+    margin-top: 10vw;
+}
+.ourService .card img{
+
+    height: 9vw;
+    margin-bottom: 1vw;
+}
+
+/* ----------------OUR TEAM--------------- */
+.ourTeam{
+
+}
+.ourTeam h1{
+    margin-bottom: 4vw;
+}
+.ourTeam-inner{
+    display: flex;
+}
+.ourTeam-inner img{
+    width: 40vw;
+    height: 38vw;
+    margin-left: 3vw;
+    border: 4px solid #acb532;;
+    border-radius: 10px;
+}
+.ourTeam-inner h1{
+    margin: 12vw 0 0 0vw;
+}
+.wePower{
+    margin-left: 12vw;
+    font-size: 2.5vw;
+}
+/* ----------------CONTACT US--------------- */
+
+.contactUs-inner{
+    color: white;
+    position: relative;
+    padding: 2vw;
+}
+.contactUs-inner::before{
+    content: "";
+    background-image: url('./images/contact-bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: .2;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+}
+.contact-details h1{
+    font-size: 3.5vw;
+}
+.contact-details div{
+    background-image: linear-gradient(to left, #4279a0, #68a1ca, #bbd1e2) ;
+    border-radius: 20px;
+    width: 25vw;
+    padding: 1vw 2vw .5vw 2vw;
+    margin-top: 1vw;
+    color: black;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.icons{
+    color: #225274;
+    font-size: 3vw;
+    float: right;
+    margin: 2vw 8vw 0 0;
+}
+
+/* Right */
+.contactUs .right .card{
+    height: 35vw;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #acb532;
+    background-color: transparent;
+}
+.contactUs .right .card{
+    width: 33vw;
+    padding-left: 10px;
+    float: right;
+    margin-right: 3vw;
+}
+.contactUs .right .card div{
+    display: flex;
+    flex-direction: column;
+}
+.contactUs .right .card input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #acb532;
+    color: white;
+}
+.contactUs .right .card label{
+    margin-top: 2vw;
+    font-size: 2vw;
+    color:#7bbeee;
+}
+.contactUs .right .card button{
+    background-image: linear-gradient(to bottom, rgb(205, 220, 37), rgb(188, 196, 97), rgb(183, 186, 154));
+    width: 15vw;
+    align-self: center;
+    margin: 5vw 0vw;
+    color: white;
+    padding: 1vw 1vw;
+}
