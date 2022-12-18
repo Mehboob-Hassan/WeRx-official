@@ -8,6 +8,7 @@ body{
 }
 
 .section{
+    width: auto;
     margin-bottom: 1vw;
     display: flex;
     flex-direction: column;
@@ -15,19 +16,23 @@ body{
     background-color: black;
     color: white;
     padding: 3vw;
+    padding-bottom: 4vw;
 }
+
+
 
 /* ----------------NAVBAR--------------- */
 .navBar{
     background-color: black;
-    margin-top: 5vw;
+    margin-top: 2vw;
 }
 .navbar-collapse ul li a{
     color: white;
     margin-left: 20px;
+    margin-top: -3vw;
 }
 .navbar-brand img{
-    margin-top: 1vw;
+    margin-top: -3vw;
     width: 12vw;
     height: 12vw;
 }
@@ -38,16 +43,15 @@ body{
 
 /* ----------------SLOGAN--------------- */
 .slogan{
+    margin-top: -8vh;
     background-color: black;
-    padding-bottom: 3vw;
-}
-.slogan-left{
+    padding: 0vw 3vw 3.5vw 3vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .slogan-left h1{
-    margin: 0vw 0 0 2vw;
+    margin: 4vw 0 0 2vw;
     font-weight: 550;
     font-size: 4.8vw;
 }
@@ -66,14 +70,29 @@ body{
 .aboutUS{
     padding-bottom: 6vw;
 }
+.aboutUS .row img{
+    position: relative;
+}
+.aboutUS .row .black{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .4;
+    z-index: 1;
+}
 .aboutUs-inner{
     display: flex;
     align-items: center;
     justify-content: baseline;
 }
+.aboutUS h1{
+    font-size: 3.8vw;
+}
 .aboutUs-inner h1{
+    width: 40vw;
     font-size: 2.8vw;
-    margin: 0vw 0 0 -1vw;
+    margin: 0vw 0 0 1vw;
 }
 /* ----------------OUR SERVICE--------------- */
 .ourService{
@@ -105,23 +124,27 @@ body{
 
 }
 .ourTeam h1{
+    font-size: 3.8vw;
     margin-bottom: 4vw;
 }
 .ourTeam-inner{
     display: flex;
 }
 .ourTeam-inner img{
-    width: 40vw;
-    height: 38vw;
-    margin-left: 3vw;
+    width: 42vw;
+    height: 35vw;
+    margin-left: 0vw;
     border: 4px solid #acb532;;
     border-radius: 10px;
 }
 .ourTeam-inner h1{
+    font-size: 3vw;
+    font-weight: 550;
+    width: 34vw;
     margin: 12vw 0 0 0vw;
 }
 .wePower{
-    margin-left: 12vw;
+    float: right;
     font-size: 2.5vw;
 }
 /* ----------------CONTACT US--------------- */
@@ -140,7 +163,7 @@ body{
     right: 0px;
     bottom: 0px;
     left: 0px;
-    opacity: .2;
+    opacity: .4;
 }
 .contact-details{
     display: flex;
@@ -193,6 +216,9 @@ body{
     border-bottom: 1px solid #acb532;
     color: white;
 }
+.contactUs .right .card input::placeholder{
+    color: white;
+}
 .contactUs .right .card label{
     margin-top: 2vw;
     font-size: 2vw;
@@ -205,4 +231,16 @@ body{
     margin: 5vw 0vw;
     color: white;
     padding: 1vw 1vw;
+}
+
+
+
+
+
+/* Media Query */
+
+@media (min-width: 1200px) {
+    .container{
+        min-width: 1270px;
+    }
 }
