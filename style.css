@@ -29,10 +29,10 @@ body{
 .navbar-collapse ul li a{
     color: white;
     margin-left: 20px;
-    margin-top: -3vw;
+    margin-top: -3.2vw;
 }
 .navbar-brand img{
-    margin-top: -3vw;
+    margin-top: -2vw;
     width: 12vw;
     height: 12vw;
 }
@@ -40,7 +40,8 @@ body{
     background-image: linear-gradient(to bottom, #235C86, #7BBEEE);
     border-radius: 10px;
 }
-
+.navbar-toggler, .navbar-toggler-icon{
+}
 /* ----------------SLOGAN--------------- */
 .slogan{
     margin-top: -8vh;
@@ -95,11 +96,15 @@ body{
     margin: 0vw 0 0 1vw;
 }
 /* ----------------OUR SERVICE--------------- */
-.ourService{
+.ourService h1{
+    font-size: 3.8vw;
 }
 .ourSevice-cards{
     display: flex;
     margin-top: 2.5vw;
+}
+.ourSevice-cards h2{
+    font-size: 2.4vw;
 }
 .ourService .card{
     background-image: linear-gradient(to bottom, #335d6e, #3c8dc8, #4792b2);
@@ -114,15 +119,11 @@ body{
     margin-top: 10vw;
 }
 .ourService .card img{
-
     height: 9vw;
     margin-bottom: 1vw;
 }
 
 /* ----------------OUR TEAM--------------- */
-.ourTeam{
-
-}
 .ourTeam h1{
     font-size: 3.8vw;
     margin-bottom: 4vw;
@@ -148,7 +149,9 @@ body{
     font-size: 2.5vw;
 }
 /* ----------------CONTACT US--------------- */
-
+.contactUs h1{
+    font-size: 3.5vw;
+}
 .contactUs-inner{
     color: white;
     position: relative;
@@ -179,14 +182,14 @@ body{
     background-image: linear-gradient(to left, #4279a0, #68a1ca, #bbd1e2) ;
     border-radius: 20px;
     width: 25vw;
-    padding: 1vw 2vw .5vw 2vw;
+    padding: 1.5vw 2vw .5vw 2vw;
     margin-top: 1vw;
     color: black;
     font-size: 1.2vw;
     font-weight: bold;
 }
 .icons{
-    color: #225274;
+    color: #95afc1;
     font-size: 3vw;
     float: right;
     margin: 2vw 8vw 0 0;

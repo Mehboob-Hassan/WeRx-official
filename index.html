@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp_style.css">
     <!-- CDN link fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
@@ -18,15 +19,15 @@
     <!-- ---------------NAVBAR-------------- -->
 
     <section class="container navBar">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="navbar-brand">
                 <img src="./images/logo.png" alt="">
             </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button style="text-color: white;" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span style="font-color: white;" class="navbar-toggler-icon"></span>
             </button>
           
-            <div class="collapse navbar-collapse" id="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav  ml-auto">
                     <li class="nav-item ">
                         <a class="nav-link" href="">HOME</a>
@@ -55,10 +56,10 @@
     <!-- -----------------SLOGAN--------------------- -->
     <section  class="container section">
         <div class="row slogan">
-            <div class="slogan-left col-6">
+            <div class="slogan-left col-lg-6 ">
                 <h1><span style="color: #7bbeee;">Experience</span>  the world like Never Before</h1>
             </div>
-            <div class="slogan-right col-6">
+            <div class="slogan-right col-lg-6">
                 <img src="./images/vr.png" alt="">
             </div>
         </div>
@@ -68,18 +69,18 @@
     <section class="container section aboutUS">
         <h1><span style="color: #7bbeee;">ABOUT</span> US</h1>
         <div class="aboutUs-inner row">
-            <div class="col">
+            <div class="col pic">
                 <div class="black"></div>
                 <img class="col" src="./images/vr-girl.png" alt="">
             </div>
-            <h1 class="col"><span style="color: #7bbeee;">Creating</span> a future-proof digital experience, <span style="color: #7bbeee;">weR Experience</span> is focused on bridging the gap between <span style="color: #7bbeee;">the physical</span> and <span style="color: #7bbeee;">the digital</span> world.</h1>
+            <h1 class="col para"><span style="color: #7bbeee;">Creating</span> a future-proof digital experience, <span style="color: #7bbeee;">weR Experience</span> is focused on bridging the gap between <span style="color: #7bbeee;">the physical</span> and <span style="color: #7bbeee;">the digital</span> world.</h1>
         </div>
     </section>
 
     <!----------------------OUR SERVICE--------------- -->
     <section class="container section ourService">
         <h1><span style="color: #7bbeee;">OUR</span>  SERVICE</h1>
-        <h1>The <span style="color: #7bbeee;">Virual</span>  Reality is Coming</h1>
+        <h2>The <span style="color: #7bbeee;">Virual</span>  Reality is Coming</h1>
         <div class="ourSevice-cards">
             <div class="card">
                 <img src="./images/3d-character.jpg" alt="">
@@ -104,7 +105,7 @@
                 <div class="img col">
                     <img src="./images/ourTeam.jpeg" alt="">
                 </div>
-                <div class="col">
+                <div class="col para">
                     <h1><span style="color: #7bbeee;">We</span> divides <span style="color: #7bbeee;">the task and</span> multiplies <span style="color: #7bbeee;">the success</span><br><span class="wePower"><span style="color: #7bbeee;">#</span>ThePowerOfWe</span></h1>
                 </div>
             </div>
@@ -150,7 +151,7 @@
                         </div>
                         <div class="name">
                             <label for="">Details</label>
-                            <Input placeholder="Enter yourProject Detail"></Input>
+                            <Input placeholder="Enter your Project Detail"></Input>
                         </div>
                         <button class="btn">SEND MESSAGE</button>
                     </form>
