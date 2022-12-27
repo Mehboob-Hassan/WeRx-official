@@ -13,6 +13,9 @@
         width: 25vw;
         height: 25vw;
     }
+    .navbar .login-btn{
+        margin-top: 1vw;
+    }
 
     /* -----------  SLOGAN ------------- */
 
@@ -39,12 +42,12 @@
         padding-bottom: 0vw;
     }
     .aboutUS h1{
-        font-size: 8vw;
+        font-size: 9vw;
     }
     .aboutUs-inner{
         display: block;
         flex-direction: column;
-        height: 150vw;
+        height: 145vw;
         width: 100vw;
     }
     .aboutUs-inner .pic{
@@ -52,6 +55,7 @@
         height: 100vw;
     }
     .aboutUs-inner .para{
+        font-size: 6vw;
         margin-top: 15vw;
         text-align: center;
         width: 100vw;
@@ -60,7 +64,7 @@
     /* -----------OUR SERVICE------------- */
     .ourService h1{
         margin-top: 5vw;
-        font-size: 6vw;
+        font-size: 8vw;
     }
     .ourService h2{
         font-size: 5.5vw;
@@ -140,6 +144,8 @@
         float: none;
         display: block;
         text-align: center;
+        color: #d0e5f2;
+        margin-left: 7vw;
     }
 
     /* Contact Us inner Right */
